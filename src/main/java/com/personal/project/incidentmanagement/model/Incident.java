@@ -1,8 +1,9 @@
 package com.personal.project.incidentmanagement.model;
 
-public class Incident {
-    String incidentId;
+import java.io.Serializable;
 
+public class Incident implements Serializable {
+    String incidentId;
     String incidentTitle;
     String description;
 
